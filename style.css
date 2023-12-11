@@ -1,0 +1,179 @@
+.navbar-brand{
+    color: #96022f; 
+    font-size: 10vh; 
+    font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: 4px 4px 0px #000, 
+                    -1px 0 0px #000,
+                    3px 2px 0 #fff" ;
+}
+
+@media (min-width: 386px) and (max-width: 600px){
+    .navbar-brand{
+        font-size: 7vh;
+    }
+}
+
+@media (max-width: 385.9px){
+    .navbar-brand{
+        font-size: 5vh;
+    }
+}
+
+.c1{
+    background-image: url(images/gyms/c2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+}
+
+.c2{
+    background-image: url(images/gyms/c1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+}
+
+.card{
+    transition: 0.2s ease-in;
+}
+
+.card:hover{
+scale: 0.9;
+
+}
+
+.gymsection{
+    margin: 20px;
+}
+
+.gymsection>p{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Vina Sans', cursive;    margin-bottom: 30px;
+    color: rgb(190, 215, 237);
+    
+}
+
+.gymsection{
+    padding: 50px;
+    background: linear-gradient(-45deg, #9a0e0e, #790c0c, #1d4e11, #096b32);
+	background-size: 500% 500%;
+	animation: gradient 15s ease infinite;
+    border-radius: 30px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.outb{
+    background-image: linear-gradient(pink,white,pink,white,pink);
+    margin: 30px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.outb>p{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 3px 0px 7px rgba(225, 80, 215, 0.8), 
+	  -3px 0px 7px rgba(166, 12, 166, 0.8), 
+	  0px 4px 7px rgba(234, 39, 211, 0.8);
+}
+
+
+
+.mycard{
+    background-color: rgb(35, 27, 65);
+    border-radius: 30px;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: 0.2s;
+}
+
+.mycard:hover{
+    scale: 1.05;
+    background-color: rgb(48, 5, 5);
+    border-radius: 30px;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.mycardlink{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.xd{
+    display: flex;
+    justify-content: center;
+}
+
+.mycardimage{
+    border-radius: 20px;
+}
+
+.holder{
+
+    background: linear-gradient(-45deg, #1a044e, #790c0c, #5022bb, #890707);
+	background-size: 500% 500%;
+	animation: gradient 15s ease infinite;
+    border-radius: 30px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.holder>p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-family: 'Modern Antiqua', cursive;
+    text-shadow: 3px 3px 20px #4ac499,
+    -2px 1px 30px #211f20;
+    
+    
+}
+
+@media (max-width:460px)
+{
+    .gymsection>p{
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Vina Sans', cursive;
+        margin-bottom: 30px;
+        color: rgb(190, 215, 237);
+        
+    }
+
+    .outb>p{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        text-shadow: 3px 0px 7px rgba(225, 80, 215, 0.8), 
+          -3px 0px 7px rgba(166, 12, 166, 0.8), 
+          0px 4px 7px rgba(234, 39, 211, 0.8);
+    }
+}
+
